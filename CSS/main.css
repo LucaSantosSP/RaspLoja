@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    background-color: #262d49;
+    height: 100px;
+    padding: 15px 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#encontreForm{
+    font-size: 2rem;
+    color: #fff;
+    flex: 1 1 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pesquisa{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#btnPesquisa{
+    font-family: fantasy;
+    font-size: 1.3rem;
+    padding: 12px 0 2px 0;
+    text-align: center;
+}
+
+#btnPesquisa:hover{
+    cursor: pointer;
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.article{
+    margin-bottom: 50px;
+    width: 100%;
+    display: block;
+    background-color: #90a7c38a;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 6px 6px 6px rgba(0,0,0,.5);
+    margin-left: 5px;
+    font-family: Bodoni MT;
+}
+
+.thumb{
+    float: left;
+    margin-right: 5px; 
+    border-radius: 10px;
+}
+
+.comments, .category-link{
+    opacity:0 
+}
+
+.side-wrapper{
+    float: left;
+    margin: 0 5px;
+    background-color: #766d9b8a;
+    border-radius: 10px;
+}
+
+a{
+    color: #3e2a91;
+}
+
+body{
+    background-color: #bdbfc5;
+}
+
+.TrocaPag{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+a .TrocaPag{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
